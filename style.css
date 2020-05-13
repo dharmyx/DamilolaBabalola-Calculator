@@ -8,7 +8,9 @@
 }
 
 body {
-  background-image: url('/Users/apple/Desktop/bg-calc1.jpg');
+  background-image: url(img/bg-calc3.jpeg);
+  background-repeat: no-repeat 50%;
+  background-size: cover;
   margin: 0 auto;
   margin-top: 10vh;
   font-family: 'Questrial', sans-serif;
@@ -19,7 +21,8 @@ body {
     width: 300px;
     max-width: 300px;
     padding: 20px;
-    font-size: 22px;
+    color: #fff;
+    font-size: 25px;
     margin: 0 auto;
     text-transform: uppercase;
 }

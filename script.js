@@ -51,6 +51,11 @@ function backSpace() {
 }
 del[0].addEventListener("click", backSpace, false);
 
+function squareRoot() {
+    display.innerText = parseFloat(Math.sqrt(display.innerText).toFixed(8));
+    console.log("squareRoot");
+}
+
 function percentSign() {
     display.innerText = parseFloat(display.innerText) / 100;
 }
