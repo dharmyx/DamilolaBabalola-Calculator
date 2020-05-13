@@ -52,7 +52,7 @@ function backSpace() {
 del[0].addEventListener("click", backSpace, false);
 
 function squareRoot() {
-    display.innerText = parseFloat(Math.sqrt(display.innerText).toFixed(8));
+    display.innerText = parseFloat(Math.sqrt(display.innerText).toFixed(5));
     console.log("squareRoot");
 }
 
