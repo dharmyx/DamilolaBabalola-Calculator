@@ -14,15 +14,15 @@ body {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 10vh;
+    margin-top: 5vh;
     font-family: 'Questrial', sans-serif;
 }
 
 .label {
     text-align: center;
-    width: 300px;
-    max-width: 300px;
-    padding: 20px;
+    width: 100%;
+    max-width: 80%;
+    padding-bottom: 20px;
     color: #fff;
     font-size: 25px;
     margin: 0 auto;
@@ -174,7 +174,7 @@ tr:last-child > td {
 }
 
 #footer-items {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
